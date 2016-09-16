@@ -29,4 +29,4 @@ echo "------ Clean Local : BEGIN ------"
 rm -rf ./"$1".zip
 rm -rf ./"$1"
 echo "------ Clean Local : END ------"
-echo "file url : https://storage.googleapis.com/static-media/temp/export/media/$1".zip
+echo "file url : https://storage.googleapis.com/<bucket-name>/temp/export/media/$1".zip
